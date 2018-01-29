@@ -37,6 +37,7 @@ const mapStateToProps = state => {
 }
 
 const mapDispatchToProps = dispatch => {
+  console.log('in mapDispacthToProps', dispatch)
   return bindActionCreators({
     fetchCats
   }, dispatch)
