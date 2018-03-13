@@ -13,4 +13,4 @@ const CatList = (props) => {
   )
 }
 
-export default CatList
+export default CatList;
